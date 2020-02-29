@@ -1,9 +1,7 @@
 # require 'pry'
 
 def reverse_each_word(string)
-
   array = []
-  # string.split(" ").collect do
   word = string.split(" ").collect do |word|
     counter = word.length
     new_word = ''
